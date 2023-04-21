@@ -1,8 +1,8 @@
 # BreweryDb
 BreweryDb is an Database of Brewery company
 
-Architecture used is MVVM.
-Using DI methoad and Repository to fetch the Api data.
+I have used MVVM architecture .
+I used DI methoad and Repository to fetch the Api data.
 
 
 <p float="center">
