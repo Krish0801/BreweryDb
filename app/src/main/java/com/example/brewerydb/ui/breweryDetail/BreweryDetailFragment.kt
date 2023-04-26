@@ -28,10 +28,10 @@ class BreweryDetailFragment : Fragment() {
             with(it) {
                 binding.breweryName.text = name
                 binding.breweryId.text = id
-                binding.breweryAddress.text = address_1
+                binding.breweryAddress.text = address1
                 binding.breweryCity.text = city
                 binding.breweryState.text = state
-                binding.breweryPostcode.text = postal_code
+                binding.breweryPostcode.text = postalCode
                 binding.breweryPhone.text = phone
             }
         }

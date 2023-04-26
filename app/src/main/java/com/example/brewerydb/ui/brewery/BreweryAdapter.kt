@@ -8,7 +8,7 @@ import com.example.brewerydb.R
 import com.example.brewerydb.data.model.BreweryItem
 import com.example.brewerydb.databinding.ItemBreweryBinding
 
-class BreweryAdapter(val brewery: ArrayList<BreweryItem>?) :
+class BreweryAdapter(val brewery: List<BreweryItem>?) :
   RecyclerView.Adapter<BreweryAdapter.ViewHolder>() {
 
       var onItemClick: ((BreweryItem) -> Unit)? = null

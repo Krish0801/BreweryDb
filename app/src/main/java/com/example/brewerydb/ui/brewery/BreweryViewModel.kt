@@ -14,7 +14,7 @@ class BreweryViewModel @Inject constructor(
     val repository: Repository
 ): ViewModel() {
 
-    val brewery = MutableLiveData<ArrayList<BreweryItem>>()
+    val brewery = MutableLiveData<List<BreweryItem>>()
 
     fun getBrewery() {
 

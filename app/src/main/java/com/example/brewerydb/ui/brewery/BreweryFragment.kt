@@ -43,8 +43,8 @@ class BreweryFragment : Fragment() {
         return binding.root
     }
 
-    private fun setupUI(brewery: ArrayList<BreweryItem>, brewerySharedModel: BreweryDetailViewModel){
-        val breweryAdapter = BreweryAdapter(brewery as ArrayList<BreweryItem>?)
+    private fun setupUI(brewery: List<BreweryItem>, brewerySharedModel: BreweryDetailViewModel){
+        val breweryAdapter = BreweryAdapter(brewery as List<BreweryItem>?)
         binding.rvBrewery.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = breweryAdapter
